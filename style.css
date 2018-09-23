@@ -1,13 +1,14 @@
 a {
-	margin-top: 15px;
+	margin-right: 5px;
 	color: red;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
+	position: relative;
 }
 
 .link-center {
 	position: absolute;
-	left: 50%;
 	top: 50%;
-	
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
