@@ -6,6 +6,5 @@ a {
 }
 
 .link-center {
-	position: absolute;
-	left: 50%;
+	text-align: center;
 }
