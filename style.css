@@ -1,4 +1,11 @@
 a {
+	margin-top: 15px;
 	color: red;
 	text-decoration: none;
+	display: block;
+}
+
+.link-center {
+	position: absolute;
+	left: 50%;
 }
