@@ -1,3 +1,7 @@
+.header {
+	padding-top: 15px
+}
+
 .logo {
 	text-align: center;
 	font-family: 'Inconsolata', monospace;
@@ -6,6 +10,10 @@
 		color: #333;
 	}
 	img {
+		display: inline-block;
+		vertical-align: top;
+		max-width: 100%;
+		height: auto;
 		margin: 0 auto;
 	}	
 }
@@ -13,15 +21,12 @@
 ul {	
 	text-align: center;
 	list-style: none;
-	&:last-child {
-		padding-right: 0;
-		}
+	
 	}
 
 .menu {
 	width: 600px;
 	margin: 0 auto;
-	padding: 0;
 	padding-bottom: 50px;
 	padding-top: 65px;
 	a {
@@ -34,9 +39,12 @@ ul {
 		}
 	}
 	li {
-		padding-right: 65px;
-		display: inline-block;
-		
+		padding: 0 35px 0 35px;
+		display: inline-block;		
+		}
+		&:last-child {
+			padding-right: 0;
+			color: red;
 		}
 
 			

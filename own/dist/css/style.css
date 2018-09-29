@@ -283,6 +283,10 @@ th {
   box-sizing: border-box;
 }
 
+.header {
+  padding-top: 15px;
+}
+
 .logo {
   text-align: center;
   font-family: 'Inconsolata', monospace;
@@ -294,6 +298,10 @@ th {
 }
 
 .logo img {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -302,14 +310,9 @@ ul {
   list-style: none;
 }
 
-ul:last-child {
-  padding-right: 0;
-}
-
 .menu {
   width: 600px;
   margin: 0 auto;
-  padding: 0;
   padding-bottom: 50px;
   padding-top: 65px;
 }
@@ -326,8 +329,13 @@ ul:last-child {
 }
 
 .menu li {
-  padding-right: 65px;
+  padding: 0 35px 0 35px;
   display: inline-block;
+}
+
+.menu:last-child {
+  padding-right: 0;
+  color: red;
 }
 
 a {
@@ -349,7 +357,7 @@ a {
   text-align: left;
 }
 
-.main-text p {
+.main-text a {
   font-family: "Times New Roman", sans-serif;
   font-weight: 300;
   font-size: 14px;
