@@ -1,8 +1,10 @@
 body {
-  //font-family: $base-font-family;
+  //text-align: center;
 }
 
-
+a {
+	text-decoration: none;
+}
 
 #wraper {
 	position: relative;
@@ -12,8 +14,20 @@ body {
 
 .container {
 	max-width: 1063px;
-	//padding: 0 69px;
 	margin: 0 auto;
 }
 
+
+.main-text {
+	text-align: left;
+	p {
+		font-family: $base-font-family;
+		font-weight: $reg;
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #b4ad9e;
+		margin-top: 50px;
+		
+	}
+}
 

@@ -1,29 +1,44 @@
-h1 {
+.logo {
 	text-align: center;
+	font-family: 'Inconsolata', monospace;
 	margin-top: 84px;
+	a {
+		color: #333;
+	}
+	img {
+		margin: 0 auto;
+	}	
 }
+
+ul {	
+	text-align: center;
+	list-style: none;
+	&:last-child {
+		padding-right: 0;
+		}
+	}
 
 .menu {
 	width: 600px;
 	margin: 0 auto;
 	padding: 0;
+	padding-bottom: 50px;
+	padding-top: 65px;
 	a {
-		font-family: 'Times New Roman', sans-serif;
-		text-decoration: none;
+		font-family: $base-font-family;
 		color: #626262;
 		font-size: 14px;
 		text-transform: uppercase;
-	&:hover {
-		color: #ea1313;
+		&:hover {
+			color: #ea1313;
 		}
 	}
-	ul {
-		text-align: center;
-		list-style: none;
-	}
 	li {
+		padding-right: 65px;
 		display: inline-block;
-		text-align: center;		
+		
+		}
+
+			
 	}
-}
 
