@@ -284,7 +284,9 @@ th {
 }
 
 .header {
-  padding-top: 15px;
+  padding-top: 15px ul;
+  padding-top-text-align: center;
+  padding-top-list-style: none;
 }
 
 .logo {
@@ -303,11 +305,6 @@ th {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
-}
-
-ul {
-  text-align: center;
-  list-style: none;
 }
 
 .menu {
@@ -333,11 +330,6 @@ ul {
   display: inline-block;
 }
 
-.menu:last-child {
-  padding-right: 0;
-  color: red;
-}
-
 a {
   text-decoration: none;
 }
@@ -355,13 +347,65 @@ a {
 
 .main-text {
   text-align: left;
+  margin-top: 55px;
+  color: #626262;
+  line-height: 1.6;
+  max-width: 85%;
 }
 
-.main-text a {
+.main-text h1 {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.main-text ul {
+  margin-bottom: 45px;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+.main-text-link {
   font-family: "Times New Roman", sans-serif;
   font-weight: 300;
   font-size: 14px;
   text-transform: uppercase;
   color: #b4ad9e;
-  margin-top: 50px;
+}
+
+.title-list a:hover {
+  color: #ea1313;
+  text-decoration: underline;
+}
+
+.num {
+  list-style-type: decimal;
+}
+
+.blochquote p {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 100px;
+  padding: 25px 0;
+  text-align: right;
+  background-color: #f0f0f0;
+}
+
+.footer img {
+  display: inline-block;
+  height: 16px;
+}
+
+.footer p {
+  display: inline-block;
+}
+
+.footer a {
+  margin-left: 15px;
+}
+
+.footer a:hover {
+  color: #ea1313;
 }

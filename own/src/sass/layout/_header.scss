@@ -1,5 +1,10 @@
 .header {
 	padding-top: 15px
+	ul {	
+		text-align: center;
+		list-style: none;
+	
+	}
 }
 
 .logo {
@@ -18,11 +23,6 @@
 	}	
 }
 
-ul {	
-	text-align: center;
-	list-style: none;
-	
-	}
 
 .menu {
 	width: 600px;
@@ -35,18 +35,13 @@ ul {
 		font-size: 14px;
 		text-transform: uppercase;
 		&:hover {
-			color: #ea1313;
+			color: $link-hover;
 		}
 	}
 	li {
 		padding: 0 35px 0 35px;
 		display: inline-block;		
 		}
-		&:last-child {
-			padding-right: 0;
-			color: red;
-		}
-
 			
 	}
 

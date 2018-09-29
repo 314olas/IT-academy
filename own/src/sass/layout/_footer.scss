@@ -1,0 +1,21 @@
+.footer {
+	margin-top: 100px;
+	padding: 25px 0;
+	text-align: right;
+	background-color: #f0f0f0;
+	img {
+		display: inline-block;
+		height: 16px;		
+		
+	}
+	p {
+		display: inline-block;
+	}
+	a {
+		margin-left: 15px;
+		&:hover {
+			color: $link-hover;
+		}
+	}
+
+}

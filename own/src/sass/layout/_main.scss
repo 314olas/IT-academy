@@ -20,14 +20,49 @@ a {
 
 .main-text {
 	text-align: left;
-	a {
+	margin-top: 55px;
+	color: #626262;
+	line-height: 1.6;
+	max-width: 85%;
+	
+	h1 {
 		font-family: $base-font-family;
-		font-weight: $reg;
-		font-size: 14px;
-		text-transform: uppercase;
-		color: #b4ad9e;
-		margin-top: 50px;
-		
+		font-size: 36px;
+		font-weight: $bold;
+	}
+	ul {
+		margin-bottom: 45px;
+		margin-top: 25px;
+		padding-left: 20px;
 	}
 }
 
+.main-text-link {
+	font-family: $base-font-family;
+	font-weight: $reg;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+.description {
+	
+	
+}
+
+.title-list {
+	a:hover {
+		color: $link-hover;
+		text-decoration: underline;
+	}
+}
+
+.num {
+	list-style-type: decimal;
+}
+
+.blochquote {
+	p {
+		text-align: center;
+	}
+}
