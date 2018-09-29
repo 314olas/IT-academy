@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?xv143x");
-  src: url("fonts/icomoon.eot?xv143x#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?xv143x") format("truetype"), url("fonts/icomoon.woff?xv143x") format("woff"), url("fonts/icomoon.svg?xv143x#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?tjr077");
+  src: url("fonts/icomoon.eot?tjr077#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?tjr077") format("truetype"), url("fonts/icomoon.woff?tjr077") format("woff"), url("fonts/icomoon.svg?tjr077#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -24,32 +24,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram-logo:before {
+.icon-instagram:before {
+  content: "\e902";
+}
+
+.icon-twitter:before {
   content: "\e900";
 }
 
-.icon-google:before {
-  content: "\ea88";
-}
-
-.icon-google2-squared:before {
-  content: "\ea89";
-}
-
 .icon-facebook:before {
-  content: "\ea90";
-}
-
-.icon-facebook2-squared:before {
-  content: "\ea91";
-}
-
-.icon-linkedin-squared:before {
-  content: "\eac9";
-}
-
-.icon-linkedin2:before {
-  content: "\eacb";
+  content: "\e901";
 }
 
 html {
@@ -393,19 +377,21 @@ a {
   background-color: #f0f0f0;
 }
 
-.footer img {
+.footer i {
   display: inline-block;
   height: 16px;
+  color: #626262;
+}
+
+.footer i:hover {
+  color: #ea1313;
 }
 
 .footer p {
   display: inline-block;
+  padding-right: 10px;
 }
 
 .footer a {
   margin-left: 15px;
-}
-
-.footer a:hover {
-  color: #ea1313;
 }
