@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	margin-top: 84px;
+}
+
+.menu {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0;
+	a {
+		text-decoration: none;
+		color: #626262;
+		font-size: 14px;
+		text-transform: uppercase;
+	&:hover {
+		color: #ea1313;
+		}
+	}
+	ul {
+		text-align: center;
+		list-style: none;
+	}
+	li {
+		display: inline-block;
+		text-align: center;		
+	}
+}
+
