@@ -295,6 +295,7 @@ h1 {
 }
 
 .menu a {
+  font-family: 'Times New Roman', sans-serif;
   text-decoration: none;
   color: #626262;
   font-size: 14px;
@@ -324,5 +325,4 @@ h1 {
 .container {
   max-width: 1063px;
   margin: 0 auto;
-  border: 1px solid green;
 }
