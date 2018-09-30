@@ -6,6 +6,10 @@ a {
 	text-decoration: none;
 }
 
+h1, h2, h3, h4 {
+	font-weight: $bold;
+}
+
 #wraper {
 	position: relative;
 	width: 100%;
@@ -19,6 +23,9 @@ a {
 
 
 .main-text {
+	font-family: 'Georgia', sans-serif;
+	font-weight: $reg;
+	font-size: 14px;
 	text-align: left;
 	margin-top: 55px;
 	color: #626262;
@@ -28,7 +35,6 @@ a {
 	h1 {
 		font-family: $base-font-family;
 		font-size: 36px;
-		font-weight: $bold;
 	}
 	ul {
 		margin-bottom: 45px;
@@ -40,7 +46,6 @@ a {
 .main-text-link {
 	font-family: $base-font-family;
 	font-weight: $reg;
-	font-size: 14px;
 	text-transform: uppercase;
 	color: #b4ad9e;
 }

@@ -318,6 +318,13 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+}
+
 #wraper {
   position: relative;
   width: 100%;
@@ -330,6 +337,9 @@ a {
 }
 
 .main-text {
+  font-family: 'Georgia', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
   text-align: left;
   margin-top: 55px;
   color: #626262;
@@ -340,7 +350,6 @@ a {
 .main-text h1 {
   font-family: "Times New Roman", sans-serif;
   font-size: 36px;
-  font-weight: 900;
 }
 
 .main-text ul {
@@ -352,7 +361,6 @@ a {
 .main-text-link {
   font-family: "Times New Roman", sans-serif;
   font-weight: 300;
-  font-size: 14px;
   text-transform: uppercase;
   color: #b4ad9e;
 }
@@ -388,6 +396,8 @@ a {
 }
 
 .footer p {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 300;
   display: inline-block;
   padding-right: 10px;
 }
