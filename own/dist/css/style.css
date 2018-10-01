@@ -385,6 +385,14 @@ h4 {
   background-color: #f0f0f0;
 }
 
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
 .footer i {
   display: inline-block;
   height: 16px;
