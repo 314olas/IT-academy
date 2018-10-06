@@ -1,16 +1,19 @@
 .header {
-	padding-top: 15px
+	margin-top: 99px;
+	margin-bottom: 50px;
+	}
+
 	ul {	
 		text-align: center;
 		list-style: none;
 	
 	}
-}
+
 
 .logo {
+	margin-bottom: 65px;
 	text-align: center;
 	font-family: 'Inconsolata', monospace;
-	margin-top: 84px;
 	a {
 		color: #333;
 	}
@@ -27,8 +30,6 @@
 .menu {
 	width: 600px;
 	margin: 0 auto;
-	padding-bottom: 50px;
-	padding-top: 65px;
 	a {
 		font-family: $base-font-family;
 		color: #626262;
@@ -39,8 +40,9 @@
 		}
 	}
 	li {
-		padding: 0 35px 0 35px;
-		display: inline-block;		
+		padding: 0 35px;
+		display: inline-block;
+		vertical-align: top;		
 		}
 			
 	}

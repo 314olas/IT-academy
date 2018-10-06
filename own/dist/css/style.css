@@ -268,15 +268,19 @@ th {
 }
 
 .header {
-  padding-top: 15px ul;
-  padding-top-text-align: center;
-  padding-top-list-style: none;
+  margin-top: 99px;
+  margin-bottom: 50px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
 }
 
 .logo {
+  margin-bottom: 65px;
   text-align: center;
   font-family: 'Inconsolata', monospace;
-  margin-top: 84px;
 }
 
 .logo a {
@@ -294,8 +298,6 @@ th {
 .menu {
   width: 600px;
   margin: 0 auto;
-  padding-bottom: 50px;
-  padding-top: 65px;
 }
 
 .menu a {
@@ -310,8 +312,9 @@ th {
 }
 
 .menu li {
-  padding: 0 35px 0 35px;
+  padding: 0 35px;
   display: inline-block;
+  vertical-align: top;
 }
 
 a {
@@ -323,6 +326,11 @@ h2,
 h3,
 h4 {
   font-weight: 900;
+}
+
+h1 {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 36px;
 }
 
 #wraper {
@@ -347,15 +355,17 @@ h4 {
   max-width: 85%;
 }
 
-.main-text h1 {
-  font-family: "Times New Roman", sans-serif;
-  font-size: 36px;
-}
-
 .main-text ul {
   margin-bottom: 45px;
   margin-top: 25px;
   padding-left: 20px;
+}
+
+.main-img img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .main-text-link {
@@ -363,6 +373,10 @@ h4 {
   font-weight: 300;
   text-transform: uppercase;
   color: #b4ad9e;
+}
+
+.title-list {
+  text-align: left;
 }
 
 .title-list a:hover {
@@ -374,7 +388,8 @@ h4 {
   list-style-type: decimal;
 }
 
-.blochquote p {
+.blochquote {
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -386,6 +401,7 @@ h4 {
 }
 
 .footer ul {
+  text-align: right;
   list-style-type: none;
 }
 

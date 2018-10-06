@@ -10,6 +10,11 @@ h1, h2, h3, h4 {
 	font-weight: $bold;
 }
 
+h1 {
+	font-family: $base-font-family;
+	font-size: 36px;
+}
+
 #wraper {
 	position: relative;
 	width: 100%;
@@ -21,7 +26,6 @@ h1, h2, h3, h4 {
 	margin: 0 auto;
 }
 
-
 .main-text {
 	font-family: 'Georgia', sans-serif;
 	font-weight: $reg;
@@ -32,14 +36,20 @@ h1, h2, h3, h4 {
 	line-height: 1.6;
 	max-width: 85%;
 	
-	h1 {
-		font-family: $base-font-family;
-		font-size: 36px;
-	}
+
 	ul {
 		margin-bottom: 45px;
 		margin-top: 25px;
 		padding-left: 20px;
+	}
+}
+
+.main-img {
+	img{
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		vertical-align: top;
 	}
 }
 
@@ -50,12 +60,12 @@ h1, h2, h3, h4 {
 	color: #b4ad9e;
 }
 
-.description {
-	
+.comment {
 	
 }
 
 .title-list {
+	text-align: left;
 	a:hover {
 		color: $link-hover;
 		text-decoration: underline;
@@ -67,7 +77,6 @@ h1, h2, h3, h4 {
 }
 
 .blochquote {
-	p {
-		text-align: center;
-	}
+	margin-bottom: 20px;
+	text-align: center;
 }
