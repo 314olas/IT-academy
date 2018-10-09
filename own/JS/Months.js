@@ -1,6 +1,5 @@
 var mostLongerMonths = "Январь, март, май, июль, август, октябрь, декабрь";
 var shorterMonths = "февраль, апрель, июнь, сентябрь, ноябрь";
-
 let months = {
     january: 31,
     february: 28,
